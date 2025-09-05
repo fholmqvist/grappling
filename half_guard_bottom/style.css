@@ -23,7 +23,7 @@ img {
   margin: auto;
 }
 
-ul {
+ul, ol {
   display: block;
   max-width: 40rem;
   margin: 1rem auto;
