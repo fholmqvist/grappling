@@ -1,0 +1,40 @@
+body {
+  max-width: 50rem;
+  margin: 2rem auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2,
+h3 {
+  margin-top: 2rem;
+  padding: 0;
+}
+
+h3 {
+  margin-left: 2rem;
+}
+
+img {
+  display: block;
+  max-width: 40rem;
+  margin: auto;
+}
+
+ul {
+  display: block;
+  max-width: 40rem;
+  margin: 1rem auto;
+}
+
+.image-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  transform: translateX(-33.3%);
+}
+
+.image-row img {
+  max-width: 30rem;
+}
